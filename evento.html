@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title></title>
+		<meta charset="UTF-8">
+		<meta name="description" content="curso Desarrollo Web">
+		<meta name="keywords" content="HTML5,CSS3,JavaScript,PHP">
+		<meta name="author" content="Jav Hernández">
+		<link rel="stylesheet" href="#">
+		
+	</head>
+	<body>
+		<p ondblclick="set()" >CONT DOBLCLCIC</p>
+
+		<script>
+		function set() {
+			var x = document.getElementsByTagName("P");
+			x[0].innerHTML = "eventDoblclick";
+		}
+		function set1() {
+			var x = document.getElementsByTagName("P");
+			x[0].innerHTML = "CONT DOBLCLCIC";
+		}
+		</script>
+
+	</body>
+</html>

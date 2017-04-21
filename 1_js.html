@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title></title>
+		<meta charset="UTF-8">
+		<meta name="description" content="curso Desarrollo Web">
+		<meta name="keywords" content="HTML5,CSS3,JavaScript,PHP">
+		<meta name="author" content="Jav Hernández">
+		<link rel="stylesheet" href="#">
+		
+	</head>
+	<body>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+
+		<script type="text/javascript" >
+			var nombre;
+			var tag;
+			var i = 0;
+			nombre = prompt("cual es tu nombre", "janine");
+			tag = document.getElementsByTagName("DIV");
+			document.write(tag);
+			for(i=0; i<tag.length; i++){
+				tag[i].innerHTML = nombre;
+			}
+		</script>
+
+	</body>
+</html>
